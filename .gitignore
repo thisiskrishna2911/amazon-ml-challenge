@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+*.tar.gz
+
+# Virtual environments / environment folders
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Logs, reports, caches
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data / large files (if you don't want them versioned)
+data/raw/
+data/processed/
+*.parquet
+*.h5
+*.pt
+*.pth
+
+# Model checkpoints (unless you want to version some)
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Config / secrets (if local)
+*.env
+config/local.yaml
+secret_keys.json
+
+# Temporary / intermediate files
+tmp/
+temp/
+cache/
+*.cache
+
+# Notebook outputs
+*.ipynb
+
+# Ignore Python egg/binary files
+*.egg
+*.eggs
+
+# Logs
+*.log
